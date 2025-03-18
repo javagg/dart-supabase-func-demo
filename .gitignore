@@ -17,5 +17,3 @@ pubspec.lock
 node_modules
 build/
 pnpm-lock.yaml
-.wrangler
-supabase/

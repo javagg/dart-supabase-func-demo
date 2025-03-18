@@ -1,9 +1,0 @@
-[functions.dart-demo]
-enabled = true
-verify_jwt = true
-policy = "per_worker"
-#import_map = "./deno.json"
-entrypoint = './build/main.js'
-# Specifies static files to be bundled with the function. Supports glob patterns.
-# For example, if you want to serve static HTML pages in your function:
-# static_files = [ "./client.html" ]

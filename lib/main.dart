@@ -1,7 +1,6 @@
 import 'dart:js_interop';
 import 'supabase.dart';
-import 'dart:convert';
-import 'template.dart';
+// import 'dart:convert';
 
 
 // Response handleRequest(Request request) {
@@ -63,7 +62,7 @@ import 'template.dart';
 // }
 
 Response handle(Request request) {
-  return Response("hello", ResponseInit());
+  return Response("hello dart!", ResponseInit());
 }
 
 @JS("Deno.serve")

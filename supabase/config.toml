@@ -2,4 +2,4 @@
 enabled = true
 verify_jwt = false
 entrypoint = "./functions/build/main.js"
-static_files = [ "./functions/client.html" ]
+static_files = [ "./functions/*.html" ]
